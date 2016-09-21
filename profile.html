@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Alpha</title>
+    <meta name="description" content="A free HTML template and UI Kit built on Bootstrap" />
+    <meta name="keywords" content="free html template, bootstrap, ui kit, sass" />
+    <meta name="author" content="Peter Finlan and Taty Grassini Codrops" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#663fb5">
+    <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#663fb5">
+    <link rel="stylesheet" href="css/landio.css">
+  </head>
+
+  <body>
+
+    <!-- Navigation
+    ================================================== -->
+
+    <nav class="navbar navbar-dark navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span style="color:black"><img src="img/social/dropbox-black.svg"></span></a> <a aria-controls=
+            "collapsingNavbar" aria-expanded="false" class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href=
+            "#collapsingNavbar">&#9776;</a> <a aria-controls="collapsingMobileUser" aria-expanded="false" class=
+            "navbar-toggler navbar-toggler-custom hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingMobileUser"><span class=
+            "icon-user"></span></a>
+
+            <div aria-labelledby="collapsingNavbar" class="collapse navbar-toggleable-custom" id="collapsingNavbar" role="tabpanel">
+                <ul class="nav navbar-nav pull-xs-right">
+                    <li class="nav-item nav-item-toggable">
+                        <button class="btn-link" style="margin:1.8em 0.5em 0 0" onclick="smoothScroll(document.getElementById('section-signup'))">Sign up</button>
+                    </li>
+
+                    <li class="nav-item nav-item-toggable">
+                        <button class="btn-link" style="margin:1.8em 0.3em 0 0">Login</button>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html" style="color:black">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html" style="color:black">About</a>
+                    </li>
+
+
+
+                    <li class="nav-item nav-item-toggable hidden-md-up">
+                        <form class="navbar-form">
+                            <input class="form-control navbar-search-input" placeholder="Type your search &amp; hit Enter&hellip;" type="text">
+                        </form>
+                    </li>
+
+
+                    <li class="navbar-divider hidden-sm-down">
+                    </li>
+
+
+                    <li class="nav-item dropdown nav-dropdown-search hidden-sm-down">
+                        <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1"><span class=
+                        "icon-search" style="color:black"></span></a>
+
+                        <div aria-labelledby="dropdownMenu1" class="dropdown-menu dropdown-menu-right dropdown-menu-search">
+                            <form class="navbar-form">
+                                <input class="form-control navbar-search-input" placeholder="Type your search &amp; hit Enter&hellip;" type="text">
+                            </form>
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item dropdown hidden-sm-down textselect-off">
+                        <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle nav-dropdown-user" data-toggle="dropdown" id=
+                        "dropdownMenu2"><img alt="Avatar" class="img-circle" style="box-shadow:0 0 0 2px #000" height="40" src="img/face5.jpg" width="40"> <span class=
+                        "icon-caret-down" style="color:black"></span></a>
+
+                        <div aria-labelledby="dropdownMenu2" class="dropdown-menu dropdown-menu-right dropdown-menu-user dropdown-menu-animated">
+                            <div class="media">
+                                <div class="media-left"><img alt="Avatar" class="img-circle" height="60" src="img/face5.jpg" width="60">
+                                </div>
+
+
+                                <div class="media-body media-middle">
+                                    <h5 class="media-heading">Joel Fisher</h5>
+
+
+                                    <h6>hey@joelfisher.com</h6>
+                                </div>
+                            </div>
+                            <a class="dropdown-item text-uppercase" href="#">View posts</a> <a class="dropdown-item text-uppercase" href="#">Manage groups</a>
+                            <a class="dropdown-item text-uppercase" href="#">Subscription &amp; billing</a> <a class="dropdown-item text-uppercase text-muted"
+                            href="#">Log out</a> <a class="btn-circle has-gradient pull-xs-right" href="#"><span class="sr-only">Edit</span> <span class=
+                            "icon-edit"></span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Hero Section
+    ================================================== -->
+
+    <header class="center-vertically" style="margin-top:5em" role="banner">
+      <div class="container" >
+        <div class="row" style="width:65%;margin:auto">
+          <div class="col-md-4">
+            <div style="float:right;text-align:right">
+                <img src="img/face1.jpg" style="width:10em;height:10em;border:solid 2px;margin-bottom:1em"><br/>
+                <h1><strong>Fredrik Lindberg</strong></h1>
+                <a href="http://www.linkedin.com" class="social"><img src="img/social/linkedin-black.svg" width="32px" height="32px" /></a>&nbsp&nbsp
+                <a href="http://www.linkedin.com" class="social"><img src="img/social/facebook-black.svg" width="32px" height="32px" /></a>&nbsp&nbsp
+                <a href="http://www.linkedin.com" class="social"><img src="img/social/twitter-black.svg" width="32px" height="32px" /></a>&nbsp&nbsp
+                <a href="http://www.linkedin.com" class="social"><img src="img/social/instagram-black.svg" width="32px" height="32px"/></a>&nbsp&nbsp
+                <a href="http://www.linkedin.com" class="social"><img src="img/social/github-black.svg" width="32px" height="32px"/></a>
+            </div>
+          </div>
+          <div class="col-md-8 p-x-3">
+              <h1><strong>About</strong></h1>
+              <br/>
+              <h5>Basic Info</h5>
+              <table>
+                <tr>
+                  <td style="width:60%;color:#ccc">Birthday</td>
+                  <td>10 November, 1990</td>
+                </tr>
+                <tr>
+                  <td style="width:60%;color:#ccc">Sex</td>
+                  <td>Male</td>
+                </tr>
+                <tr>
+                  <td style="width:60%;color:#ccc">Lives</td>
+                  <td>Stockholm, Sweden</td>
+                </tr>
+                <tr>
+                  <td style="width:60%;color:#ccc">Works at</td>
+                  <td>Ping Pong AB</td>
+                </tr>
+              </table>
+              <br/>
+              <br/>
+              <p>
+                Kevin Systrom (@kevin) is the CEO and co-founder of Instagram, a community of more than 500 million who capture and share the world's moments on the service. He is responsible for the company's overall vision and strategy as well as day-to-day operations.
+              </p>
+              <p>
+                Since the beginning, Kevin has focused on simplicity and inspiring creativity through solving problems with thoughtful product design. As a result, Instagram has become the home for visual storytelling for everyone from celebrities, newsrooms and brands, to teens, musicians and anyone with a creative passion.
+              </p>
+              <p>
+                Prior to founding Instagram, Kevin was part of the startup Odeo, which later became Twitter, and spent two years at Google working on products like Gmail and Google Reader. He graduated from Stanford University with a BS in Management Science & Engineering and serves on the boards of Walmart and KCRW.
+              </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Footer
+    ================================================== -->
+
+    <footer class="section-footer bg-inverse" role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-5">
+            <div class="media">
+              <small class="media-body media-bottom">
+                &copy; Alpha <br>
+                Designed by Truong Hoang
+              </small>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-7">
+            <ul class="nav nav-inline">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html"><small>Login</small> HERE<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" target="_blank">Contact</a></li>
+              <li class="nav-item"><a class="nav-link scroll-top" href="#totop">Back to top <span class="icon-caret-up"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/landio.min.js"></script>
+  </body>
+</html>
